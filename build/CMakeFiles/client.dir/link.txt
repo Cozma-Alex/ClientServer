@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/client.dir/src/client_main.cpp.o CMakeFiles/client.dir/src/client.cpp.o -o client  /usr/lib64/libboost_system.so.1.83.0 /usr/lib64/libboost_thread.so.1.83.0 -lpthread
+/usr/bin/c++  -Wall -Wextra CMakeFiles/client.dir/src/client_main.cpp.o CMakeFiles/client.dir/src/client.cpp.o -o client  /usr/lib64/libboost_system.so.1.83.0 /usr/lib64/libboost_thread.so.1.83.0 -lpthread

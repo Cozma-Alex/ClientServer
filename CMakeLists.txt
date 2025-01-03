@@ -8,17 +8,21 @@ project(competition_system)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 
 find_package(Boost REQUIRED COMPONENTS system thread)
-include_directories(${Boost_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR}/src)
+include_directories(${Boost_INCLUDE_DIRS} ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+add_library(competition_lib
+    src/server.cpp)
 
 add_executable(server 
-    src/server_main.cpp
-    src/server.cpp)
+    src/server_main.cpp)
 
 add_executable(client
     src/client_main.cpp
     src/client.cpp)
 
-target_link_libraries(server ${Boost_LIBRARIES} pthread)
-target_link_libraries(client ${Boost_LIBRARIES} pthread)
+target_link_libraries(competition_lib PUBLIC ${Boost_LIBRARIES} pthread)
+target_link_libraries(server PRIVATE competition_lib)
+target_link_libraries(client PRIVATE ${Boost_LIBRARIES} pthread)

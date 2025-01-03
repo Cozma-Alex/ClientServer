@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompetition_lib.a CMakeFiles/competition_lib.dir/src/server.cpp.o
+/usr/bin/ranlib libcompetition_lib.a

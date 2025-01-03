@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/server.dir/src/server_main.cpp.o CMakeFiles/server.dir/src/server.cpp.o -o server  /usr/lib64/libboost_system.so.1.83.0 /usr/lib64/libboost_thread.so.1.83.0 -lpthread
+/usr/bin/c++  -Wall -Wextra CMakeFiles/server.dir/src/server_main.cpp.o -o server  libcompetition_lib.a /usr/lib64/libboost_system.so.1.83.0 /usr/lib64/libboost_thread.so.1.83.0 -lpthread

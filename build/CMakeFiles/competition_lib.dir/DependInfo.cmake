@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/acozma/faculta/ppd/ClientServer/src/server_main.cpp" "CMakeFiles/server.dir/src/server_main.cpp.o" "gcc" "CMakeFiles/server.dir/src/server_main.cpp.o.d"
+  "/home/acozma/faculta/ppd/ClientServer/src/server.cpp" "CMakeFiles/competition_lib.dir/src/server.cpp.o" "gcc" "CMakeFiles/competition_lib.dir/src/server.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
 
-CXX_INCLUDES = -I/home/acozma/faculta/ppd/ClientServer/src
+CXX_INCLUDES = -I/home/acozma/faculta/ppd/ClientServer/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS =  -Wall -Wextra -std=gnu++17
 

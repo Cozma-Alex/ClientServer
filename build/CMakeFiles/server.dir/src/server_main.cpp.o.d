@@ -2,12 +2,7 @@ CMakeFiles/server.dir/src/server_main.cpp.o: \
  /home/acozma/faculta/ppd/ClientServer/src/server_main.cpp \
  /usr/include/stdc-predef.h \
  /home/acozma/faculta/ppd/ClientServer/src/server.hpp \
- /usr/include/boost/asio.hpp \
- /usr/include/boost/asio/any_completion_executor.hpp \
- /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
- /usr/include/boost/config/user.hpp \
- /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/14/cstddef \
+ /usr/include/c++/14/atomic /usr/include/c++/14/bits/version.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h \
@@ -17,25 +12,38 @@ CMakeFiles/server.dir/src/server_main.cpp.o: \
  /usr/include/gnu/stubs-64.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/c++/14/pstl/pstl_config.h \
+ /usr/include/c++/14/bits/atomic_base.h /usr/include/c++/14/new \
+ /usr/include/c++/14/bits/exception.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14/bits/move.h /usr/include/c++/14/type_traits \
+ /usr/include/boost/asio.hpp \
+ /usr/include/boost/asio/any_completion_executor.hpp \
+ /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/14/cstddef \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
- /usr/include/c++/14/bits/version.h \
  /usr/include/boost/config/detail/select_stdlib_config.hpp \
  /usr/include/c++/14/version \
  /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/confname.h \
- /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
  /usr/include/boost/config/detail/select_platform_config.hpp \
  /usr/include/boost/config/platform/linux.hpp /usr/include/c++/14/cstdlib \
- /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
  /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
@@ -56,7 +64,6 @@ CMakeFiles/server.dir/src/server_main.cpp.o: \
  /usr/include/boost/asio/execution.hpp \
  /usr/include/boost/asio/execution/allocator.hpp \
  /usr/include/boost/asio/detail/type_traits.hpp \
- /usr/include/c++/14/type_traits \
  /usr/include/boost/asio/execution/executor.hpp \
  /usr/include/boost/asio/execution/invocable_archetype.hpp \
  /usr/include/boost/asio/detail/variadic_templates.hpp \
@@ -67,13 +74,6 @@ CMakeFiles/server.dir/src/server_main.cpp.o: \
  /usr/include/boost/asio/execution/execute.hpp \
  /usr/include/boost/asio/execution/detail/as_invocable.hpp \
  /usr/include/boost/asio/detail/atomic_count.hpp \
- /usr/include/c++/14/atomic /usr/include/c++/14/bits/atomic_base.h \
- /usr/include/c++/14/new /usr/include/c++/14/bits/exception.h \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/include/c++/14/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14/bits/move.h \
  /usr/include/boost/asio/detail/memory.hpp /usr/include/c++/14/memory \
  /usr/include/c++/14/bits/memoryfwd.h \
  /usr/include/c++/14/bits/allocator.h \
@@ -1152,25 +1152,13 @@ CMakeFiles/server.dir/src/server_main.cpp.o: \
  /usr/include/boost/asio/windows/stream_handle.hpp \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
- /usr/include/boost/asio/impl/write_at.hpp /usr/include/boost/bind.hpp \
- /usr/include/boost/bind/bind.hpp \
- /usr/include/boost/bind/detail/requires_cxx11.hpp \
- /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp \
- /usr/include/boost/bind/mem_fn_template.hpp \
- /usr/include/boost/bind/mem_fn_cc.hpp \
- /usr/include/boost/bind/detail/result_traits.hpp \
- /usr/include/boost/core/ref.hpp \
- /usr/include/boost/bind/std_placeholders.hpp \
- /usr/include/boost/visit_each.hpp \
- /usr/include/boost/bind/detail/is_same.hpp \
- /usr/include/boost/bind/storage.hpp /usr/include/boost/bind/bind_cc.hpp \
- /usr/include/boost/bind/bind_mf_cc.hpp \
- /usr/include/boost/bind/bind_mf2_cc.hpp \
- /usr/include/boost/bind/placeholders.hpp /usr/include/c++/14/deque \
+ /usr/include/boost/asio/impl/write_at.hpp /usr/include/c++/14/deque \
  /usr/include/c++/14/bits/stl_deque.h /usr/include/c++/14/bits/deque.tcc \
  /usr/include/c++/14/fstream /usr/include/c++/14/bits/codecvt.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/queue \
- /usr/include/c++/14/bits/stl_queue.h /usr/include/c++/14/iostream
+ /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/iostream \
+ /usr/include/c++/14/queue /usr/include/c++/14/bits/stl_queue.h \
+ /usr/include/c++/14/set /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/bits/stl_set.h \
+ /usr/include/c++/14/bits/stl_multiset.h
