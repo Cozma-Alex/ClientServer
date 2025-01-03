@@ -1,0 +1,4 @@
+/home/acozma/faculta/ppd/ClientServer/build/CMakeFiles/server.dir
+/home/acozma/faculta/ppd/ClientServer/build/CMakeFiles/client.dir
+/home/acozma/faculta/ppd/ClientServer/build/CMakeFiles/edit_cache.dir
+/home/acozma/faculta/ppd/ClientServer/build/CMakeFiles/rebuild_cache.dir

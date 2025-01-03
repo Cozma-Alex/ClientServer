@@ -1,0 +1,3 @@
+Starting client for country 4 with delta_x=1
+Current ranking:
+Client error: read_until: End of file [asio.misc:2]
